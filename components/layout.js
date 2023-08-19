@@ -5,7 +5,7 @@
  import utilStyles from '../styles/utils.module.css';
 
  const name = 'Tom Wasnidge';
-export const siteTitle = 'Next.js Sample Website';
+export const siteTitle = 'Tom';
  
  const Layout = ({children, home}) => {
     return (
@@ -36,7 +36,7 @@ export const siteTitle = 'Next.js Sample Website';
               width={144}
               alt=""
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h1 className="text-3xl font-bold underline py-4">{name}</h1>
           </>
         ) : (
           <>
