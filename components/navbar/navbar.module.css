@@ -1,0 +1,38 @@
+.navigation {
+    display: flex;
+    background-color: grey;
+    overflow: hidden;
+    width: 100%;
+    color: aliceblue;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
+.navigation a {
+    background-color: black;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 4px;
+    border-radius: 4px;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.logoheading {
+    background-color: black;
+}
+
+.hamburgerLogo {
+    padding: 4px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    text-decoration: none;
+}

@@ -1,10 +1,11 @@
- import styles from './layout.module.css'
- import Head from 'next/head';
- import Link from 'next/link';
- import Image from 'next/image';
- import utilStyles from '../styles/utils.module.css';
+import styles from './layout.module.css'
+import Head from 'next/head';
+import Link from 'next/link';
+import Image from 'next/image';
+import utilStyles from '../styles/utils.module.css';
+import NavBar from './navbar/navbar';
 
- const name = 'Tom Wasnidge';
+const name = 'Tom Wasnidge';
 export const siteTitle = 'Tom';
  
  const Layout = ({children, home}) => {
@@ -26,6 +27,7 @@ export const siteTitle = 'Tom';
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
+        <NavBar />
         {home ? (
           <>
             <Image
