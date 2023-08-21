@@ -30,9 +30,13 @@
 }
 
 .hamburgerLogo {
-    padding: 4px;
+    margin-left: 3px;
     margin-top: auto;
     margin-bottom: auto;
     text-align: center;
     text-decoration: none;
+}
+
+.hamburgerLogo:hover {
+    background-color: lightgray;
 }
