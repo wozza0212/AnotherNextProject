@@ -1,7 +1,16 @@
+.outerNavContainer {
+  max-width: 50rem;
+  padding: 0;
+  margin: 3rem auto 6rem;
+  background-color: lightgray;
+  border-radius: 2px;
+}
+
 .container {
-  max-width: 40rem;
+  max-width: 50rem;
   padding: 0 1rem;
   margin: 3rem auto 6rem;
+  background-color: lightgray;
 }
 
 .header {
