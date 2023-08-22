@@ -1,13 +1,24 @@
+import Blog from "../../components/blog/blog";
 import Layout from "../../components/layout";
+import { getSortedPostsData } from "../../lib/posts";
 
-const Blog = () => {
+export const getStaticProps = async () => {
+    const allPostsData = getSortedPostsData();
+    return {
+      props: {
+        allPostsData,
+      },
+    };
+  }
+
+const BlogPage = ({allPostsData}) => {
     return (
         <Layout>
             <div>
-                <h1>Blog</h1>
+                <Blog allPostsData={allPostsData}/>
             </div>
         </Layout>
     )
  }
 
-export default Blog;
+export default BlogPage;

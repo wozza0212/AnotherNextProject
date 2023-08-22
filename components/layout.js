@@ -6,7 +6,7 @@ import utilStyles from '../styles/utils.module.css';
 import NavBar from './navbar/navbar';
 
 const name = 'Tom Wasnidge';
-export const siteTitle = 'Tom';
+export const siteTitle = 'Progr';
  
  const Layout = ({children, home}) => {
     return (
