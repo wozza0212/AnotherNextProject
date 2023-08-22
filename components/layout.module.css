@@ -4,6 +4,7 @@
   margin: 3rem auto 6rem;
   background-color: lightgray;
   border-radius: 2px;
+  border: red 2px solid;
 }
 
 .container {
@@ -11,6 +12,7 @@
   padding: 0 1rem;
   margin: 3rem auto 6rem;
   background-color: lightgray;
+  
 }
 
 .header {
