@@ -1,6 +1,6 @@
 .listContainer {
-    max-width: 40rem;
-    background-color: red;
+    max-width: 50rem;
+    background-color: grey;
     margin: auto;
 }
 
@@ -12,14 +12,6 @@
     margin: 0;
 }
 
-.listItem {
-    background-color: yellow;
-    margin: 0 0 1.25rem;
-    flex-direction: row;
-    flex-basis: 50%;
-    height: 150px;
-}
-    
 
 .heading2Xl {
     font-size: 2.5rem;
@@ -55,8 +47,4 @@ color: inherit;
 
 .padding1px {
 padding-top: 1px;
-}
-
-.lightText {
-color: #666;
 }

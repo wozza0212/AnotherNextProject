@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Date from "../date";
 import styles from "./blog.module.css";
+import BlogItem from "./blog-grid-item";
 
 const Blog = ({ allPostsData }) => {
     return (
@@ -10,13 +11,7 @@ const Blog = ({ allPostsData }) => {
                     <div className={styles.listContainer}>
                         <ul className={styles.list}>
                         {allPostsData.map(({ id, date, title }) => (
-                            <li className={styles.listItem} key={id}>
-                            <Link href={`/posts/${id}`}>{title}</Link>
-                            <br />
-                            <small className={styles.lightText}>
-                                <Date dateString={date} />
-                            </small>
-                        </li>
+                            <BlogItem id={id} date={date} title={title} />
                         ))}
                         </ul>
                     </div>
