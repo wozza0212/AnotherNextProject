@@ -1,5 +1,4 @@
 import styles from "./blog.module.css";
-import BlogItem from "./blog-grid-item";
 import BlogGrid from "./blog-grid";
 const Blog = ({ allPostsData }) => {
     return (
